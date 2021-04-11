@@ -1,5 +1,9 @@
-I made this quickly because a colleague was on Debian 9 and couldn't compile C++17.
+# DFFRAM PlaceRAM Environment
+This is a Docker image that allows you to run [DFFRAM](https://github.com/Cloud-V/DFFRAM)'s PlaceRAM script without installing the dependencies yourself.
 
+This was originally made because someone had an older version of Debian that couldn't run most of the dependencies, but it also came in handy for CI.
+
+# ⚖️ License
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
