@@ -12,7 +12,7 @@ RUN $INST build-essential git make flex bison libboost-all-dev
 
 ## Python
 RUN $INST python3 python3-pip
-RUN python3 -m pip install pyverilog click cmake
+RUN python3 -m pip install pyverilog click liberty-parser cmake
 
 ## OpenDB-specific
 RUN $INST tcl-dev tk-dev libspdlog-dev swig
