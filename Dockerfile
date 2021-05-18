@@ -39,7 +39,7 @@ ENV INST apt-get install -y
 # Dependencies 
 RUN apt-get update
 RUN $INST python3 python3-pip tcl tk libspdlog1
-RUN python3 -m pip install pyverilog click
+RUN python3 -m pip install pyverilog click pyyaml
 
 # OpenDB
 COPY --from=builder /Opendbpy/src/OpenDB/build/src/swig/python/_opendbpy.so /usr/lib/python3/dist-packages/
